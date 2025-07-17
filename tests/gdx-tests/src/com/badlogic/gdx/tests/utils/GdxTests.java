@@ -258,6 +258,7 @@ public class GdxTests {
 		RunnablePostTest.class,
 		Scene2dTest.class,
 		Scene2dGestureDetectorTest.class,
+		Scene2dGestureDetector2Test.class,
 		ScrollPane2Test.class,
 		ScrollPaneScrollBarsTest.class,
 		ScrollPaneTest.class,

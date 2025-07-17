@@ -34,6 +34,8 @@ public class Scene2dGestureDetectorTest extends GdxTest {
 	private ScrollPane pane1;
 	private ScrollPane pane2;
 
+	private boolean gesturesTriggered = false;
+
 	public void create () {
 		stage = new Stage();
 		Gdx.input.setInputProcessor(stage);
@@ -50,8 +52,6 @@ public class Scene2dGestureDetectorTest extends GdxTest {
 
 		stage.addActor(table);
 	}
-
-	private boolean gesturesTriggered = false;
 
 	public void render () {
 		ScreenUtils.clear(0, 0, 0, 1);
